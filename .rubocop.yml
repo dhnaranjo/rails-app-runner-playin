@@ -1,4 +1,11 @@
 # Ref: https://evilmartians.com/chronicles/rubocoping-with-legacy-bring-your-ruby-code-up-to-standard
+AllCops:
+  TargetRubyVersion: 2.7
+
+inherit_mode:
+  merge:
+    - Exclude
+
 require:
   - rubocop-performance
   - standard/cop/block_single_line_braces
