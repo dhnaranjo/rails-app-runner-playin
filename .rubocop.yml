@@ -1,0 +1,7 @@
+# Ref: https://evilmartians.com/chronicles/rubocoping-with-legacy-bring-your-ruby-code-up-to-standard
+require:
+  - rubocop-performance
+  - standard/cop/block_single_line_braces
+
+inherit_gem:
+  standard: config/base.yml
