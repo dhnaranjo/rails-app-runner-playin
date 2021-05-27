@@ -38,4 +38,6 @@ COPY --chown=app . ./
 RUN rm bin/yarn
 RUN RAILS_ENV=production SECRET_KEY_BASE=assets bundle exec rake assets:precompile
 
-CMD ["bundle", "exec", "rackup"]
+EXPOSE 3000
+
+CMD ["rails", "server", "-b", "0.0.0.0"]
