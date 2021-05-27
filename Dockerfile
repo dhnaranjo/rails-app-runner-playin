@@ -1,5 +1,5 @@
 # Cribb'd from: https://lipanski.com/posts/dockerfile-ruby-best-practices
-FROM ruby:2.7.2-alpine3.13 AS base
+FROM public.ecr.aws/g0f8a3x6/ruby:2.7.2-alpine3.13 AS base
 
 RUN apk add --update \
   postgresql-dev \
