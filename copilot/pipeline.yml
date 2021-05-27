@@ -1,7 +1,7 @@
 # This YAML file defines the relationship and deployment ordering of your environments.
 
 # The name of the pipeline
-name: pipeline-trash-rails-app-runner-playin
+name: pipeline-copilot-test-rails-app-runner-playin
 
 # The version of the schema used in this template
 version: 1
