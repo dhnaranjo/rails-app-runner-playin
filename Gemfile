@@ -58,3 +58,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "health_check", "~> 3.1"
+
+gem "standardrb", "~> 1.0"
